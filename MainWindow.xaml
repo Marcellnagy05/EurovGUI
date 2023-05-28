@@ -19,7 +19,7 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <DataGrid x:Name="dataGrid" Grid.Column="1" Grid.Row="0" Grid.RowSpan="3" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <DataGrid x:Name="dataGrid" Grid.Column="1" Grid.Row="0" Grid.RowSpan="3"  SelectionUnit="FullRow" SelectionMode="Single" d:ItemsSource="{d:SampleData ItemCount=5}"/>
         <Button x:Name="Fel4" Grid.Row="0" Content="Feladat 4" Click="Fel4_Click"></Button>
         <Button x:Name="Fel5" Grid.Row="1" Content="Feladat 5" Click="Fel5_Click"></Button>
         <Button x:Name="Fel6" Grid.Row="2" Content="Feladat 6" Click="Fel6_Click"></Button>
